@@ -1,6 +1,6 @@
 <?php 
-
-class Usuario {
+require_once 'ModeloBase.php';
+class Usuario extends ModeloBase{
     public $nombre;
     public $apellido;
     public $email;
