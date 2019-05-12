@@ -12,7 +12,7 @@ class NotaController {
         $nota->setContenido('Hola Mundo PHP MVC');
 
         //vista
-        require_once 'views/nota/listar.php';
+        require_once 'views/nota/listar.phtml';
     }
     public function crear(){
 
